@@ -1,10 +1,10 @@
 cmake_minimum_required(VERSION 3.10)
 
-project(HelloWorld)
+project(GlfwWrapper)
 
 find_package(glfw3 CONFIG REQUIRED)
 
-add_library(GlfwWrapper SHARED main.cpp)
+add_library(GlfwWrapper SHARED glfw_wrapper.cpp)
 
 set_target_properties(GlfwWrapper PROPERTIES
   ARCHIVE_OUTPUT_DIRECTORY "${PROJECT_BINARY_DIR}/Static")
