@@ -41,7 +41,7 @@ cp build/libGlfwWrapper.so app/bin/Debug/net8.0/libGlfwWrapper.so
 ```
 ### 3. Build and run the app
 
-Finally, the C#/.Net app can be build and run:
+Finally, the C#/.Net app can be built and run:
 
 ```
 dotnet build app.csproj
