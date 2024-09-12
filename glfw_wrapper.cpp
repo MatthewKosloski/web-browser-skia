@@ -1,10 +1,8 @@
 extern "C" {
     #include <GLFW/glfw3.h>
 
-    int getVersionNumber()
+    void init()
     {
-        int major, minor, revision;
-        glfwGetVersion(&major, &minor, &revision);
-        return 1;
+        glfwInit();
     }
 }
