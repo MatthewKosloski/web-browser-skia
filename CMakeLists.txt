@@ -4,7 +4,7 @@ project(GlfwWrapper)
 
 find_package(glfw3 CONFIG REQUIRED)
 
-add_library(GlfwWrapper SHARED glfw_wrapper.cpp)
+add_library(GlfwWrapper SHARED ./cpp/glfw_wrapper.cpp)
 
 set_target_properties(GlfwWrapper PROPERTIES
   ARCHIVE_OUTPUT_DIRECTORY "${PROJECT_BINARY_DIR}/Static")
