@@ -35,7 +35,7 @@ cmake --build build
 ```
 
 After running the above commands, there should be a shared library at `build/libGlfwWrapper.so`.
-```
+
 ### 3. Build and run the app
 
 Finally, the C#/.Net app can be built and run. From the `WebBrowserSkia` directory, run:
