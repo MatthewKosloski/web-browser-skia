@@ -34,11 +34,7 @@ cmake --preset=default
 cmake --build build
 ```
 
-After running the above commands, there should be a shared library at `build/libGlfwWrapper.so`. Next, this library must be made visible to the C#/.Net app. This is done by copying it into the `WebBrowserSkia/bin` directory:
-
-```
-mkdir -p WebBrowserSkia/bin/Debug/net8.0
-cp build/libGlfwWrapper.so WebBrowserSkia/bin/Debug/net8.0/libGlfwWrapper.so
+After running the above commands, there should be a shared library at `build/libGlfwWrapper.so`.
 ```
 ### 3. Build and run the app
 
