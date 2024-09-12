@@ -44,3 +44,11 @@ Finally, the C#/.Net app can be built and run. From the `WebBrowserSkia` directo
 dotnet build WebBrowserSkia.csproj
 dotnet run WebBrowserSkia.csproj
 ```
+
+## Publishing
+
+To build and publish a platform-dependent executable for Linux, run:
+
+```
+dotnet publish -r linux-x64 -p:PublishSingleFile=true --self-contained false
+```
